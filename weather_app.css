@@ -1,0 +1,49 @@
+body{
+    background-image: url("images/background_image2.jpg");
+    background-repeat: no-repeat;
+}
+
+.container-top-section table{
+    color: black;
+    font-size: 30px;
+    margin: auto;
+}
+
+.container-middle-section{
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 360px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+
+#table_1{
+    margin: auto;
+}
+
+#table_1 button{
+    background-image: url("images/search_icon.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    font-size: 2rem;
+}
+
+#table_1 input{
+    width: 170px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.594);
+}
+
+#table_2{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#table_3{
+    width : 100%;
+    padding-left: 15px;
+    font-size: 15px;
+    margin: auto;
+}
