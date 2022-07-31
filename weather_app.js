@@ -14,7 +14,11 @@ function fetch_weather_data()
                 {
                     //All data return from weatherbit API is in weather_data variable
                     weather_data = JSON.parse(this.responseText);
-                    document.getElementById("output").innerHTML = weather_data.data[0].temp;
+                    document.getElementById("temp_text").innerHTML = "Temperature : " + weather_data.data[0].temp + "°C";
+                    document.getElementById("desc_text").innerHTML = "Description : " + weather_data.data[0].weather.description;
+
+                    document.getElementById("wind_text").innerHTML = "Wind : " + weather_data.data[0].wind_spd + "m/s";
+                    document.getElementById("humidity_text").innerHTML = "Humidity : " + weather_data.data[0].rh + "%";
                 }
             }
         }

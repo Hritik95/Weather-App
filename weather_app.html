@@ -29,10 +29,10 @@
         <table id="table_1">
             <tr>
                 <td>
-                    <input type="text" placeholder="  Search City Name">
+                    <input type="text" placeholder="  Search City Name" id="city_name">
                 </td>
                 <td>
-                    <button></button>
+                    <img src="images/search_icon.png" alt="Search" onclick="fetch_weather_data()">
                 </td>
             </tr>
         </table>
@@ -40,7 +40,7 @@
         <table id="table_2">
             <tr>
                 <td>
-                    <h1 style="font-size: 40px">temp</h1>
+                    <h1 style="font-size: 33px" id="temp_text">Temperature</h1>
                 </td>
             </tr>
 
@@ -52,7 +52,7 @@
 
             <tr>
                 <td>
-                    <h1 style="font-size: 25px">Disc</h1>
+                    <h1 style="font-size: 25px" id="desc_text">Description</h1>
                 </td>
             </tr>
         </table>
@@ -60,19 +60,23 @@
         <table id="table_3">
             <tr>
                 <td>
-                    <h1>wind</h1>
+                    <h1 id="wind_text">Wind</h1>
                 </td>
 
                 <td>
-                    <h1>himi</h1>
+                    <h1 id="humidity_text">Humidity</h1>
                 </td>
             </tr>
         </table>
     </div>
     <!-------------------------------------------->
 
-
-    
+    <!-- footer of page ------------>
+    <footer class="footer">
+        <p>*Note : All above reading are taken from weatherbit.io</p>
+        <p>It may differ from original reading</p>
+    </footer>
+    <!-------------------------------------------->
 
 </body>
 </html>
