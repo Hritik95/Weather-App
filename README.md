@@ -16,7 +16,7 @@ Simple weather app which display temperature, climate description by taking city
 
 ## Tools Used
 
-- Visual stdio code
+- Visual studio code
 
 - git bash
 
